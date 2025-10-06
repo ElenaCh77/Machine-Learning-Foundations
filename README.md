@@ -10,4 +10,21 @@ The objective was to explore, clean, and analyze the dataset to identify pattern
 ```
 Lab 2 –  ML Life Cycle: Data Understanding and Data Preparation
 ```
+In this lab, I practiced the second and third steps of the machine learning life cycle: data understanding and data preparation. I prepared a data so that it can be used to train a machine learning model that solves a regression problem.
+I completed the following tasks to transform a data:
+
+1. I build]t a data matrix and define ML problem:
+ - Loaded the Airbnb "listings" data set into a DataFrame and inspect the data
+ - Defined the label and convert the label's data type to one that is more suitable for modeling
+ - I have identified features
+2. Clean a data:
+ - Handle outliers by building a new regression label column by winsorizing outliers
+ - Handled missing data by replacing all missing values in the dataset with means
+ - Performed feature transformation using one-hot encoding
+3. Explore a data:
+ - I have identified two features with the highest correlation with label
+ - Built appropriate bivariate plots to visualize the correlations between features and the label
+4. Analysis:
+ - Analyzed the relationship between the features and the label
+
 
