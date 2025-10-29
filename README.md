@@ -26,5 +26,22 @@ I completed the following tasks to transform a data:
  - Built appropriate bivariate plots to visualize the correlations between features and the label
 4. Analysis:
  - Analyzed the relationship between the features and the label
+```
+Lab 3: Machine Learning Life Cycle – Modeling
+```
+In this lab, I practiced the modeling phase of the ML life cycle using the Airbnb listings dataset. I trained and compared Decision Tree and K-Nearest Neighbors (KNN) models to solve a classification problem.
+
+✅ What I Did
+
+Loaded and explored the dataset with pandas and numpy
+Defined the label and selected features
+Performed one-hot encoding and split data into train/test sets
+Trained multiple Decision Tree models with different max_depth values and plotted their accuracy
+Trained KNN models with various k values and compared results
+Determined the best-performing model and analyzed key factors affecting performance
+
+🧩 Tools & Libraries
+Python, pandas, numpy, matplotlib, seaborn, scikit-learn
+```
 
 
