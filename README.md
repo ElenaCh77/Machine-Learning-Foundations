@@ -42,21 +42,27 @@ The goal was to explore the Airbnb “Listings” dataset, define the regression
 
 ### 🛠 Tools & Libraries
 `Python` · `pandas` · `numpy` · `matplotlib` · `seaborn`
-Lab 3: Machine Learning Life Cycle – Modeling
-```
-In this lab, I practiced the modeling phase of the ML life cycle using the Airbnb listings dataset. I trained and compared Decision Tree and K-Nearest Neighbors (KNN) models to solve a classification problem.
 
-✅ What I Did
 
-Loaded and explored the dataset with pandas and numpy
-Defined the label and selected features
-Performed one-hot encoding and split data into train/test sets
-Trained multiple Decision Tree models with different max_depth values and plotted their accuracy
-Trained KNN models with various k values and compared results
-Determined the best-performing model and analyzed key factors affecting performance
+## 🧠 Lab 3: ML Life Cycle – Modeling
 
-🧩 Tools & Libraries
-Python, pandas, numpy, matplotlib, seaborn, scikit-learn
-```
+In this lab, I practiced the **modeling phase** of the machine learning life cycle by training and comparing two classification models: **Decision Trees** and **K-Nearest Neighbors (KNN)**.  
+The goal was to experiment with different hyperparameters and determine which model performs best on the Airbnb “Listings” dataset.
+
+### ✅ What I Did
+- Built the DataFrame, defined the **classification label**, and selected features  
+- Prepared the data by:
+  - Applying **one-hot encoding** to categorical variables  
+  - Creating labeled examples  
+  - Splitting into **training** and **testing** sets  
+- Trained multiple **Decision Tree classifiers** with varying `max_depth` values  
+  - Evaluated accuracy and plotted **max depth vs. accuracy**  
+- Trained several **KNN classifiers** with different `k` values  
+  - Compared model accuracy and plotted **k vs. accuracy**  
+- Analyzed which model performed best and explored how hyperparameters and data characteristics influence performance  
+
+### 🛠 Tools & Libraries
+`Python` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn`
+
 
 
