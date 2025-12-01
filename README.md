@@ -143,19 +143,18 @@ The goal was to classify hand-written digits — a classic computer vision probl
 
 ## 🧠 Lab 8: Define and Solve an ML Problem of Your Choosing
 
-In this final lab, I applied the entire **machine learning life cycle** end-to-end on a project of my choice.  
-I selected a dataset, defined a predictive problem, and implemented a complete ML workflow — from exploratory analysis to modeling and evaluation.
+In this final lab, I applied the complete **machine learning life cycle** to a project of my choice.  
+I selected the **censusData.csv** dataset and defined a predictive problem based on the structure and characteristics of the data.
 
 ### ✅ What I Did
-- Chose a dataset and loaded it into a DataFrame  
-- Defined the **ML problem**, including label and features  
-- Performed **exploratory data analysis (EDA)** to understand patterns and guide the approach  
-- Created a full **project plan** across data preparation, modeling, and evaluation  
-- Prepared the data using appropriate preprocessing techniques  
-- Trained a machine-learning model and evaluated its performance  
-- Iteratively improved the model based on insights from EDA and evaluation metrics  
+- Loaded the **censusData.csv** dataset into a DataFrame  
+- Defined the **ML problem**, identifying the label (target) and selecting relevant features  
+- Performed **exploratory data analysis (EDA)** to understand distributions, correlations, and key patterns  
+- Created a structured **project plan** for data preparation, modeling, and evaluation  
+- Prepared the data using appropriate preprocessing methods (cleaning, encoding, transformations)  
+- Trained and evaluated a machine-learning model tailored to the census dataset  
+- Iteratively improved the model based on evaluation metrics and insights from the data  
 
 ### 🛠 Tools & Libraries
 `Python` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn`
-
 
