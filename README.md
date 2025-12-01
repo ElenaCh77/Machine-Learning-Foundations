@@ -64,5 +64,98 @@ The goal was to experiment with different hyperparameters and determine which mo
 ### 🛠 Tools & Libraries
 `Python` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn`
 
+## 🧠 Lab 4: ML Life Cycle – Modeling (Logistic Regression From Scratch)
+
+In this lab, I continued working in the **modeling phase** of the machine learning life cycle by **building a logistic regression classifier from scratch**.  
+The goal was to implement the mathematical components behind logistic regression — including the log loss, gradient, Hessian, and gradient descent — without relying on scikit-learn’s internal algorithms.
+
+### ✅ What I Did
+- Loaded and prepared the Airbnb “Listings” dataset  
+- Defined the **classification label** and selected features  
+- Created labeled examples for training  
+- Designed a full **LogisticRegressionScratch** Python class that can:
+  - Compute predicted probabilities  
+  - Compute the **gradient** of the log loss  
+  - Compute the **Hessian**  
+  - Update weights using **gradient descent**  
+  - Check convergence based on tolerance or max iterations  
+  - Fit a logistic regression model end-to-end  
+- Trained the custom model and compared it against **scikit-learn’s LogisticRegression** to benchmark performance  
+
+### 🛠 Tools & Libraries
+`Python` · `NumPy` · `Pandas` · `scikit-learn`
+
+## 🧠 Lab 5: ML Life Cycle – Evaluation & Deployment
+
+In this lab, I continued practicing the **evaluation** and early **deployment** phases of the machine learning life cycle.  
+The focus was on **model selection**, **hyperparameter tuning**, and preparing a logistic regression model for future use.
+
+### ✅ What I Did
+- Loaded and prepared the Airbnb “Listings” dataset  
+- Defined the **classification label** and selected features  
+- Created labeled examples and split the data into training and testing sets  
+- Trained and evaluated a **baseline Logistic Regression** model using scikit-learn defaults  
+- Performed **GridSearchCV** to identify the optimal regularization hyperparameter  
+- Trained and evaluated the optimized model  
+- Plotted and compared:
+  - **Precision–Recall curves**  
+  - **ROC curves** and computed **AUC**  
+- Performed **feature selection** to improve interpretability and performance  
+- Saved (serialized) the final model to make it **persistent for future deployment**
+
+### 🛠 Tools & Libraries
+`Python` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn`
+
+## 🧠 Lab 6: Train Various Regression Models & Compare Their Performances
+
+In this lab, I focused on the **modeling and evaluation** phases of the machine learning life cycle by training multiple regression models and comparing their performance on the Airbnb “Listings” dataset. The goal was to explore individual regressors, ensemble methods, and model stacking.
+
+### ✅ What I Did
+- Loaded the dataset, defined the **regression label**, and selected features  
+- Created labeled examples and split the data into **training** and **test** sets  
+- Trained, tested, and evaluated two **individual regressors**  
+- Used **stacking ensemble methods** to combine the regressors  
+- Trained and evaluated **Gradient Boosting Regressors**  
+- Trained and evaluated **Random Forest Regressors**  
+- Compared all models using metrics such as **MSE** and **R²**  
+- Visualized and analyzed model performance across all approaches  
+
+### 🛠 Tools & Libraries
+`Python` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn`
+
+## 🧠 Lab 7: Implementing a Convolutional Neural Network Using Keras
+
+In this lab, I explored the **modeling** and **evaluation** phases of the ML life cycle by building a **Convolutional Neural Network (CNN)** using Keras.  
+The goal was to classify hand-written digits — a classic computer vision problem — using the MNIST dataset.
+
+### ✅ What I Did
+- Defined the **classification label** and feature set  
+- Loaded and split the MNIST dataset into training and test sets  
+- Inspected and visualized the images to understand their structure  
+- Preprocessed the data so it could be used in a neural network  
+- Built a multi-layer **Convolutional Neural Network** using Keras  
+- Trained the CNN and monitored its performance  
+- Evaluated the final model on both training and test data  
+- Used the provided demo (“Implementing a Neural Network Using Keras”) as a reference
+
+### 🛠 Tools & Libraries
+`Python` · `TensorFlow / Keras` · `NumPy` · `Matplotlib` · `Seaborn`
+
+## 🧠 Lab 8: Define and Solve an ML Problem of Your Choosing
+
+In this final lab, I applied the entire **machine learning life cycle** end-to-end on a project of my choice.  
+I selected a dataset, defined a predictive problem, and implemented a complete ML workflow — from exploratory analysis to modeling and evaluation.
+
+### ✅ What I Did
+- Chose a dataset and loaded it into a DataFrame  
+- Defined the **ML problem**, including label and features  
+- Performed **exploratory data analysis (EDA)** to understand patterns and guide the approach  
+- Created a full **project plan** across data preparation, modeling, and evaluation  
+- Prepared the data using appropriate preprocessing techniques  
+- Trained a machine-learning model and evaluated its performance  
+- Iteratively improved the model based on insights from EDA and evaluation metrics  
+
+### 🛠 Tools & Libraries
+`Python` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn`
 
 
